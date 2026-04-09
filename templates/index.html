@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Super DevOps Docker App</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#141e30,#243b55);
+color:white;
+text-align:center;
+}
+
+.container{
+margin-top:100px;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+width:500px;
+margin:auto;
+padding:40px;
+border-radius:15px;
+box-shadow:0px 20px 40px rgba(0,0,0,0.5);
+backdrop-filter:blur(10px);
+animation:fadeIn 2s;
+}
+
+h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+p{
+font-size:18px;
+margin:10px 0;
+}
+
+.tech{
+margin-top:25px;
+}
+
+.badge{
+display:inline-block;
+padding:10px 20px;
+margin:5px;
+border-radius:30px;
+background:#00c6ff;
+color:black;
+font-weight:bold;
+}
+
+.footer{
+margin-top:40px;
+font-size:14px;
+opacity:0.8;
+}
+
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(40px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>🚀 Super DevOps Project</h1>
+
+<p>Dockerized Web Application</p>
+
+<p>Server Hostname: <b>{{hostname}}</b></p>
+<p>Server Time: <b>{{time}}</b></p>
+
+<div class="tech">
+
+<div class="badge">🐳 Docker</div>
+<div class="badge">☁ AWS EC2</div>
+<div class="badge">💻 Flask</div>
+<div class="badge">🔧 Git</div>
+<div class="badge">🌐 GitHub</div>
+
+</div>
+
+<div class="footer">
+First DevOps Project Deployment
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
